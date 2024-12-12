@@ -2,8 +2,7 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: { fontFamily: { Outfit: ["Outfit", "sans-sefir"] } },
   },
   plugins: [],
-}
-
+};
