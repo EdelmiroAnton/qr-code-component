@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: { fontFamily: { Outfit: ["Outfit", "sans-sefir"] } },
+    extend: {
+      screens: {
+        mobile: "375px",
+      },
+      fontFamily: { Outfit: ["Outfit", "sans-sefir"] },
+    },
   },
   plugins: [],
 };
