@@ -636,6 +636,10 @@ video {
   height: 100vh;
 }
 
+.h-72 {
+  height: 18rem;
+}
+
 .w-64 {
   width: 16rem;
 }
@@ -735,6 +739,27 @@ video {
 }
 
 @media (min-width: 375px) {
+  .mobile\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobile\:h-72 {
+    height: 18rem;
+  }
+
+  .mobile\:h-80 {
+    height: 20rem;
+  }
+
+  .mobile\:w-80 {
+    width: 20rem;
+  }
+
+  .mobile\:w-64 {
+    width: 16rem;
+  }
+
   .mobile\:bg-red-700 {
     --tw-bg-opacity: 1;
     background-color: rgb(185 28 28 / var(--tw-bg-opacity, 1));
