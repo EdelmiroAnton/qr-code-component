@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -22,54 +22,54 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshot
 
 #### Desktop
+
 ![Desktop Screenshot](./screenshots/desktop.PNG)
 
 #### Mobile
+
 ![Mobile Screenshot](./screenshots/mobile.PNG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [CLick here to see the solution](https://frontend-mentor-num-1-qr-code.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Tailwind CSS](https://tailwindcss.com/) - For styles
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+The main goal of this challenge was without doubt, learn and put in practice TAILWIND CSS!. It's amazing how you can rapidly style you project through the utility classes. Fantastic.
 
-To see how you can add code snippets, see below:
+For example: Due to Tailwind has a mobile-first approach, I created my own customs breakpoints: "tablet" and "desktop". In that way, the styles will only be applied when the screen take the size I configured in the tailwind.config.js file, as below
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<img
+  src="./image-qr-code.png"
+  alt="image-qr-code"
+  class="rounded-[30px] w-80 h-80 p-4 mx-auto mt-1
+        tablet:w-96 tablet:h-96
+        desktop:w-[460px] desktop:h-[460px]
+        "
+/>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+theme: {
+    extend: {
+      screens: {
+        tablet: "640px",
+        desktop: "1440px",
+      },
+      fontFamily: { Outfit: ["Outfit", "sans-sefir"] },
+    },
+  },
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
