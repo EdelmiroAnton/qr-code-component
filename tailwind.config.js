@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        tablet: "640px",
         desktop: "1440px",
       },
       fontFamily: { Outfit: ["Outfit", "sans-sefir"] },
