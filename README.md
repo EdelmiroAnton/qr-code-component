@@ -39,9 +39,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-The main goal of this challenge was without doubt, learn and put in practice TAILWIND CSS!. It's amazing how you can rapidly style you project through the utility classes. Fantastic.
+The main goal of this challenge was without doubt, learn and put in practice TAILWIND CSS!. It's amazing how you can rapidly style your project through the utility classes. Fantastic.
 
-For example: Due to Tailwind has a mobile-first approach, I created my own customs breakpoints: "tablet" and "desktop". In that way, the styles will only be applied when the screen take the size I configured in the tailwind.config.js file, as below
+For example: Due to Tailwind has a mobile-first approach, I created my own customs breakpoints: "tablet" and "desktop". In that way, the styles will only be applied when the screen take the size I configured in the tailwind.config.js file, as below:
 
 ```html
 <img
