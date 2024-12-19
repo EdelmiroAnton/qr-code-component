@@ -595,10 +595,6 @@ video {
   height: 100vh;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .w-80 {
   width: 20rem;
 }
@@ -607,25 +603,17 @@ video {
   width: 320px;
 }
 
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-\[460px\] {
-  width: 460px;
-}
-
 .max-w-80 {
   max-width: 20rem;
+}
+
+.max-w-\[1440px\] {
+  max-width: 1440px;
 }
 
 .max-w-max {
   max-width: -moz-max-content;
   max-width: max-content;
-}
-
-.max-w-\[1440px\] {
-  max-width: 1440px;
 }
 
 .items-center {
@@ -636,41 +624,12 @@ video {
   justify-content: center;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
 .rounded-3xl {
   border-radius: 1.5rem;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .rounded-\[30px\] {
   border-radius: 30px;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
-.rounded-\[\] {
-  border-radius: ;
-}
-
-.rounded-\[3\] {
-  border-radius: 3;
-}
-
-.rounded-l-3xl {
-  border-top-left-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-}
-
-.rounded-bl-2xl {
-  border-bottom-left-radius: 1rem;
 }
 
 .bg-slate-300 {
@@ -683,12 +642,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity, 1));
 }
 
 .p-4 {
@@ -709,49 +665,6 @@ video {
 
 .text-\[22px\] {
   font-size: 22px;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-\[26px\] {
-  font-size: 26px;
-}
-
-.text-\[30px\] {
-  font-size: 30px;
 }
 
 .font-bold {
@@ -776,162 +689,54 @@ video {
   color: rgb(30 41 59 / var(--tw-text-opacity, 1));
 }
 
-.text-\[\] {
-  color: ;
-}
-
 @media (min-width: 640px) {
   .tablet\:h-96 {
     height: 24rem;
-  }
-
-  .tablet\:h-\[\] {
-    height: ;
-  }
-
-  .tablet\:h-\[650px\] {
-    height: 650px;
-  }
-
-  .tablet\:h-\[600px\] {
-    height: 600px;
-  }
-
-  .tablet\:h-\[5800px\] {
-    height: 5800px;
   }
 
   .tablet\:h-\[580px\] {
     height: 580px;
   }
 
-  .tablet\:h-\[px\] {
-    height: px;
-  }
-
-  .tablet\:h-\[700px\] {
-    height: 700px;
-  }
-
-  .tablet\:w-32 {
-    width: 8rem;
-  }
-
-  .tablet\:w-3 {
-    width: 0.75rem;
-  }
-
   .tablet\:w-96 {
     width: 24rem;
-  }
-
-  .tablet\:text-\[26px\] {
-    font-size: 26px;
-  }
-
-  .tablet\:text-\[18px\] {
-    font-size: 18px;
-  }
-
-  .tablet\:text-\[20px\] {
-    font-size: 20px;
   }
 
   .tablet\:text-\[17px\] {
     font-size: 17px;
   }
 
-  .tablet\:text-\[\] {
-    color: ;
+  .tablet\:text-\[26px\] {
+    font-size: 26px;
   }
 }
 
 @media (min-width: 1440px) {
-  .desktop\:h-\[400px\] {
-    height: 400px;
-  }
-
   .desktop\:h-\[460px\] {
     height: 460px;
-  }
-
-  .desktop\:h-\[750px\] {
-    height: 750px;
   }
 
   .desktop\:h-\[700px\] {
     height: 700px;
   }
 
-  .desktop\:h-\[650px\] {
-    height: 650px;
-  }
-
-  .desktop\:h-\[660px\] {
-    height: 660px;
-  }
-
-  .desktop\:h-\[670px\] {
-    height: 670px;
-  }
-
-  .desktop\:h-\[680px\] {
-    height: 680px;
-  }
-
-  .desktop\:w-screen {
-    width: 100vw;
-  }
-
   .desktop\:w-\[30rem\] {
     width: 30rem;
-  }
-
-  .desktop\:w-\[40rem\] {
-    width: 40rem;
-  }
-
-  .desktop\:w-\[400px\] {
-    width: 400px;
   }
 
   .desktop\:w-\[460px\] {
     width: 460px;
   }
 
-  .desktop\:max-w-\[\] {
-    max-width: ;
-  }
-
   .desktop\:max-w-\[460px\] {
     max-width: 460px;
-  }
-
-  .desktop\:text-\[30px\] {
-    font-size: 30px;
-  }
-
-  .desktop\:text-\[34px\] {
-    font-size: 34px;
-  }
-
-  .desktop\:text-\[24px\] {
-    font-size: 24px;
-  }
-
-  .desktop\:text-\[22px\] {
-    font-size: 22px;
   }
 
   .desktop\:text-\[23px\] {
     font-size: 23px;
   }
 
-  .desktop\:text-\[1\.5rem\] {
-    font-size: 1.5rem;
-  }
-
-  .\*\:desktop\:max-w-\[460px\] > * {
-    max-width: 460px;
+  .desktop\:text-\[34px\] {
+    font-size: 34px;
   }
 }
